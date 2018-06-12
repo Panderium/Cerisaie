@@ -1,7 +1,7 @@
-package service;
+package com.panderium.cerisaie.service;
 
-import dao.IActiviteDao;
-import model.ActiviteEntity;
+import com.panderium.cerisaie.dao.IActiviteDao;
+import com.panderium.cerisaie.model.ActiviteEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,8 +20,8 @@ public class ActiviteService implements IActiviteService {
     }
 
     @Override
-    public List<ActiviteEntity> findAllByCodeSport(Iterable<Integer> iterable) {
-        return activiteDao.findAllByCodeSport(iterable);
+    public ActiviteEntity findAllByCodeSport(int idCodeSport) {
+        return activiteDao.findAllByCodeSport(idCodeSport);
     }
 
 

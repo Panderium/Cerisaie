@@ -1,7 +1,7 @@
-package service;
+package com.panderium.cerisaie.service;
 
-import dao.IClientDao;
-import model.ClientEntity;
+import com.panderium.cerisaie.dao.IClientDao;
+import com.panderium.cerisaie.model.ClientEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

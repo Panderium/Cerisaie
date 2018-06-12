@@ -17,8 +17,8 @@ public class SejourEntity {
     @Column(name = "NumSej")
     private int numSej;
 
-    @Column(name = "NomCli")
-    private String nomCli;
+    @Column(name = "NumCli")
+    private int numCli;
 
     @Column(name = "NumEmpl")
     private int numEmpl;

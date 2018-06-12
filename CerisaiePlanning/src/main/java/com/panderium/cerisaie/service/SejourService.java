@@ -1,6 +1,6 @@
-package service;
+package com.panderium.cerisaie.service;
 
-import model.SejourEntity;
+import com.panderium.cerisaie.model.SejourEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

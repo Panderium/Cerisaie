@@ -21,6 +21,6 @@ public class DemandeInscriptionTopic implements MessageListener {
     private MessageDrivenContext context;
 
     public void onMessage(Message message) {
-
+        
     }
 }

@@ -1,4 +1,4 @@
-package model;
+package com.panderium.cerisaie.model;
 
 import lombok.Data;
 
