@@ -52,7 +52,7 @@ public class DemandeInscriptionTopic implements MessageListener {
                     activiteEntity.setDateJour(activite.getDateJour());
                     activiteEntity.setNbLoc(activite.getNbLoc());
                     activiteEntity.setNumSej(activite.getNumSej());
-
+                    System.out.println(activite);
                     EnregistrerInscription service = new EnregistrerInscription();
                     if(activite != null)
                         service.insert(activiteEntity);

@@ -31,22 +31,33 @@
                 <div class="form-group">
                     <label for="code_sport">Activité à réserver</label>
                     <select class="form-control" id="code_sport" name="codeSport">
-                        <c:forEach items="${sports}" var="sport">
-                            <option value="${sport.codeSport}">${sport.libelleSport} - ${sport.uniteTpsSport}
-                                (${sport.tarifUnite}€/u)
-                            </option>
-                        </c:forEach>
+                            <option value="1">Tennis</option>
+                            <option value="2">VTT</option>
+                            <option value="3">Planche-voile</option>
+                            <option value="4">Pédalo</option>
+                            <option value="5">Canoé</option>
                     </select>
                 </div>
 
                 <div class="form-group">
                     <label for="num_emplacement">Numéro de votre séjour</label>
                     <select class="form-control" id="num_emplacement" name="numSejour">
-                        <c:forEach items="${sejours}" var="sejour">
-                            <option value="${sejour.numSej}">N°${sejour.numSsej} - Emplacement ${sejour.numEmpl} -
-                                Numéro
-                                Client ${sejour.numCli}</option>
-                        </c:forEach>
+                        <option value="1">Numéro emplacement : 1</option>
+                        <option value="2">Numéro emplacement : 3</option>
+                        <option value="3">Numéro emplacement : 4</option>
+                        <option value="4">Numéro emplacement : 2</option>
+                        <option value="5">Numéro emplacement : 5</option>
+                        <option value="6">Numéro emplacement : 13</option>
+                        <option value="7">Numéro emplacement : 7</option>
+                        <option value="8">Numéro emplacement : 8</option>
+                        <option value="9">Numéro emplacement : 9</option>
+                        <option value="10">Numéro emplacement : 10</option>
+                        <option value="11">Numéro emplacement : 11</option>
+                        <option value="12">Numéro emplacement : 12</option>
+                        <option value="13">Numéro emplacement : 13</option>
+                        <option value="14">Numéro emplacement : 3</option>
+                        <option value="15">Numéro emplacement : 4</option>
+                        <option value="16">Numéro emplacement : 5</option>
                     </select>
                 </div>
 

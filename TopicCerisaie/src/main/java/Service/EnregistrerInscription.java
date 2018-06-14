@@ -12,11 +12,11 @@ public class EnregistrerInscription {
 
     public void insert(ActiviteEntity activite) throws Exception {
 
-        entityManager = Persistence.createEntityManagerFactory("Cerisaie").createEntityManager();
-
+        entityManager = Persistence.createEntityManagerFactory("PCerisaie").createEntityManager();
+        System.out.println("las");
         try {
             if (!entityManager.contains(activite)) {
-
+                System.out.println("psefn");
                 entityManager.getTransaction().begin();
                 entityManager.persist(activite);
                 entityManager.flush();

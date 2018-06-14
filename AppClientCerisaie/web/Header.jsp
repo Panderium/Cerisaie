@@ -8,7 +8,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="refresh" content="0;URL=javascript:fermer();">
-    <title> TP Inscription </title>
+    <title> Cerisaie </title>
     <link rel="stylesheet" href="resources/css/bootstrap.min.css">
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/jquery-ui.min.css">
@@ -24,7 +24,7 @@
         </div>
         <ul class="nav navbar-nav">
             <li class="active"><a href="index.jsp">Accueil</a></li>
-            <li><a href="Controleur?action=ajouteInscription">Inscription a une activite</a></li>
+            <li><a href="AjouteInscription.jsp">Inscription a une activite</a></li>
         </ul>
     </div>
 </nav>

@@ -100,6 +100,7 @@ public class Controller extends HttpServlet {
             Date dateReservation = Date.valueOf(request.getParameter("datejour"));
             String nbUnite = request.getParameter("unite");
 
+            System.out.println(codeSport);
             if ((codeSport != null) && (numSej != null) && (dateReservation != null) && (nbUnite != null)) {
                 try {
 
@@ -140,7 +141,6 @@ public class Controller extends HttpServlet {
         TopicConnection connection = null;
 
         try {
-
             connection = cf.createTopicConnection();
             session = connection.createTopicSession(false, Session.AUTO_ACKNOWLEDGE);
 
